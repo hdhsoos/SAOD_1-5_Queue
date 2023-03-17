@@ -32,7 +32,7 @@ public class CircularQueue {
             rear = (rear + 1) % size;
         }
         queue[rear] = data;
-        System.out.println("Элемент" + data + " был добавлен в конец очереди.");
+        System.out.println("Элемент " + data + " был добавлен в конец очереди.");
     }
 
     public void dequeue() {
